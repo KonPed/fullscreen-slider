@@ -16,7 +16,7 @@ h1 {
 
 .wrap {
   width: 100%;
-  height: calc(100vh - 67px);
+  height: calc(100vh - 50px);
   position: relative;
   background-color: #120103;
   color: #fff;
@@ -68,7 +68,7 @@ header label:hover {
 
 .slide {
   width: 100%;
-  height: calc(100vh - 67px);
+  height: calc(100vh - 50px);
   background-color: #120103;
   position: absolute;
   left: 100%;
