@@ -10,6 +10,8 @@ h1 {
   font-size: 3.125em;
   margin: 0;
   padding-top: 100px;
+  opacity: 0;
+  transform: translate3d(0,100%,0);
 }
 
 .wrap {
@@ -31,6 +33,12 @@ input[id^="slide"]:checked + .slide {
   left: 0;
   z-index: 100;
   transition: left 0.65s ease-out;
+}
+
+input[id^="slide"]:checked + .slide h1 {
+  transform: translate3d(0,0,0);
+  opacity: 1;
+  transition: transform 0.5s 0.5s ease-in, opacity 0.5s 0.5s ease-in;
 }
 
 header {
